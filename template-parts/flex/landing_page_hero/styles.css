@@ -1,0 +1,49 @@
+.landing_hero {
+    padding-top: 4em;
+    background-size: cover;
+    padding-bottom: 6em;
+}
+.landing_hero .half {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.landing_hero .flex {
+    justify-content: center;
+    margin-top: 1em;
+}
+.landing_hero .content {
+    padding: 50px;
+}
+.landing_hero .content:before {
+    content: " ";
+    width: 100%;
+    height: calc(100% - 90px);
+    position: absolute;
+    border: solid 2px #EBE9E3;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    border-top: none;
+}
+.landing_hero h1, .landing_hero p {
+    color: #fff;
+}
+.top_left_border:before {
+    content: " ";
+    width: 30px;
+    height: calc(100% - 90px);
+    position: absolute;
+    border-top: solid 2px #EBE9E3;
+    left: 0;
+    top: 86px;
+}
+.top_right_border:before {
+    content: " ";
+    width: 30px;
+    height: calc(100% - 90px);
+    position: absolute;
+    border-top: solid 2px #EBE9E3;
+    right: -4px;
+    top: 86px;
+}

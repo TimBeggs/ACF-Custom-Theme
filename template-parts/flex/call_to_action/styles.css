@@ -1,0 +1,48 @@
+section.cta {
+    padding: 4em 20px;
+}
+section.cta.dark {
+    background: #2a303f;
+}
+.cta_wrapper {
+    display: flex;
+    align-items: center;
+}
+.cta_button {
+    min-width: 200px;
+    text-align: right;
+}
+section.cta h4 {
+    color: #A5B1B0;
+}
+section.cta h3 {
+    color: #01674C;
+    font-size: 32px;
+    line-height: 1.2;
+    padding-bottom: 0.5em;
+}
+section.cta.dark h3 {
+    color: #EBE9E3;
+}
+section.cta.dark h4 {
+    color: #A5B1B0;
+}
+section.cta.dark p {
+    color: white;
+}
+.light_btn {
+    color: #2A303F;
+    padding: 12px 30px;
+    background: #EBE9E3;
+    line-height: 1.5;
+    font-weight: 300;
+    z-index: 9;
+    transition: 0.5s;
+    cursor: pointer;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.light_btn:hover {
+    opacity: 0.7;
+}

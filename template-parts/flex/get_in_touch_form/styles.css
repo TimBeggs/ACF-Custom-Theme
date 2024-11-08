@@ -1,0 +1,40 @@
+.get_in_touch_container, .get_a_quote_container {
+    margin-top: 6em;
+}
+.form_info h3 {
+    margin-bottom: 10px;
+}
+.get_in_touch_container .flex, .get_a_quote_container .flex {
+    gap: 4em;
+    align-items: center;
+    margin-bottom: 5em;
+}
+.form_info, .form_body {
+    width: 50%;
+}
+.half h2 {
+    margin-bottom: 0.5em;
+}
+.read_more {
+    display: flex;
+    margin-top: 3em;
+    align-items: center;
+}
+.read_more span {
+    margin-left: 10px;
+}
+.form_info h1 {
+    margin-bottom: 0.5em;
+}
+.form_body .gform_wrapper #gform_1 .top_label .gfield_label, .half .gform_wrapper #gform_1 .top_label .gfield_label {
+    background: #fff;
+}
+.contacts {
+    margin-top: 2em;
+}
+.contacts p {
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}

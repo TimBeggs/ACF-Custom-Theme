@@ -1,0 +1,70 @@
+.information_slider {
+    padding-top: 6em;
+    position: relative;
+}
+.sliders_info {
+    width: 40%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.sliders_info h1 {
+    color: #2A303F;
+    font-weight: 450;
+    margin-bottom: 30px;
+}
+.more_info {
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+.informations {
+    width: 60%;
+}
+.information_item img {
+    width: 100%;
+}
+.information_slider .slick-slider {
+    position: initial;
+}
+.informations .slick-dots {
+    width: 30%;
+    bottom: 10%;
+    left: 5%;
+}
+.informations .slick-dots li {
+    width: 1.5em;
+    height: 6px;
+    margin: 0;
+}
+.informations .slick-dots li button {
+    width: 1.5em;
+    height: 6px;
+}
+.informations .slick-dots li button:before {
+    content: "  ";
+    background: #EBE9E3;
+    opacity: 1;
+    width: 1.5em;
+    height: 6px;
+    font-size: 16px;
+}
+.informations .slick-dots li:last-child button::before {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.informations .slick-dots li:first-child button::before {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.informations .slick-dots li.slick-active button:before {
+    background: #01674C;
+    opacity: 1;
+    border-radius: 3px;
+}
+.information_slider .left-slide {
+    bottom: 9.3%;
+    left: 10%;
+}
+.information_slider .right-slide {
+    bottom: 9.3%;
+    right: 70%;
+}

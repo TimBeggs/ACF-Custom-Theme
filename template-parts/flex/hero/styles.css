@@ -1,0 +1,139 @@
+.slide_item {
+    padding-top: 6em;
+    padding-bottom: 8em;
+    background-size: cover;
+}
+.hero_slider .primary_btn {
+    margin-right: 30px;
+}
+.half {
+    width: 54%;
+    z-index: 2;
+    position: relative;
+}
+.slide_item .half::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border: solid 2px #EBE9E3;
+    position: absolute;
+    top: 39px;
+    left: 56px;
+    border-top: 0;
+    border-left: 0;
+}
+
+.slide_item .half::after {
+    content: "";
+    width: 100%;
+    height: 25px;
+    border-left: solid 2px #EBE9E3;
+    position: absolute;
+    bottom: -39px;
+    left: 56px;
+}
+
+.slide_item .half .content {
+	position: relative;
+	z-index: 22;
+}
+
+.slide_item .half .content:after {
+    content: "";
+    width: 40px;
+    height: 100%;
+    border-top: solid 2px #EBE9E3;
+    position: absolute;
+    top: 39px;
+    right: -56px;
+}
+
+.content {
+    padding: 4em;
+}
+.slide_item .container {
+    position: relative;
+}
+.mixed_bg {
+    background: #01674C;
+    mix-blend-mode: multiply;
+    border-radius: 1px;
+    position: absolute;
+    width: calc(54% - 20px);
+    height: 100%;
+    top: 0;
+    z-index: 1;
+}
+.slide_item p {
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+.slide_item h1 {
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+.primary_btn {
+    color: #EBE9E3;
+    padding: 12px 30px;
+    background: #01674C;
+    line-height: 1.5;
+    font-weight: 300;
+    z-index: 9;
+    transition: 0.5s;
+    cursor: pointer;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.primary_btn:hover, #gform_submit_button_1:hover {
+    background: #58856F;
+}
+.secondary_btn {
+    color: #FFFFFF;
+    line-height: 1.5;
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+    z-index: 9;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.read_more .arrow path,
+.secondary_btn .arrow path {
+    stroke: #FFFFFF;
+    transition: 0.5s;
+}
+svg.arrow {
+    margin-left: 10px;
+    transition: 0.5s;
+}
+.process_icon {
+    transition: 0.5s;
+}
+.secondary_btn:hover, .read_more:hover {
+    color: #01674C;
+}
+.secondary_btn:hover .arrow path, .read_more:hover .arrow path {
+    stroke: #01674C;
+}
+.slides .slick-dots {
+    bottom: 25px;
+}
+.slides .slick-dots li {
+    margin: 0;
+}
+.slides .slick-dots li.slick-active button:before {
+    opacity: 1;
+    color: #01674C;
+}
+.slides .slick-dots li button:before {
+    font-size: 14px;
+}
+.slides .slick-dots li button:before {
+    opacity: 1;
+    color: #EBE9E3;
+}
+.slides.slick-dotted.slick-slider {
+    margin-bottom: 0;
+}

@@ -1,0 +1,62 @@
+.image_with_text {
+    margin-top: 6em !important;
+    margin-bottom: 6em !important;
+}
+.image_with_text .half {
+    width: auto;
+}
+.image_with_text .flex {
+    align-items: center;
+    gap: 10em;
+}
+.project_hero.image_with_text .flex {
+    align-items: center;
+    gap: 3em;
+}
+
+.image_with_text .half h2 {
+    margin-bottom: 0.5em;
+    color: #2A303F;
+}
+.image_with_text .half h3 {
+    color: #A5B1B0;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin-bottom: 0.3em;
+}
+.image_with_text .half p {
+    margin-bottom: 2.5em;
+}
+.image_with_text .half a {
+    display: flex;
+    align-items: center;
+}
+.image_with_text .half a span {
+    margin-left: 10px;
+}
+
+.half.half_img img {
+    width: 90%;
+    z-index: 4;
+    position: relative;
+}
+.half.half_img:before {
+    content: " ";
+    width: 90%;
+    height: 100%;
+    position: absolute;
+    border: solid 2px #EBE9E3;
+    left: 10%;
+    top: 10%;
+    z-index: 1;
+}
+.half.half_img:after {
+    content: "";
+    position: absolute;
+    background: #fff;
+    width: 90%;
+    height: 100%;
+    left: 3%;
+    top: 3%;
+    z-index: 2;
+}

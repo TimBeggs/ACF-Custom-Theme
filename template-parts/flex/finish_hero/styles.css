@@ -1,0 +1,64 @@
+.finish_hero_container {
+    display: flex;
+}
+.finish_text {
+    width: 50%;
+    padding: 5% 0;
+}
+.finish_image.half {
+    width: 50%;
+}
+.finish_text h1 {
+    margin-bottom: 30px;
+}
+.finish_hero .button_list {
+    display: flex;
+    margin-top: 30px;
+    gap: 2em;
+    justify-content: flex-start;
+}
+.button_list .primary_btn {
+    display: block;
+	text-align: center;
+}
+.finish_image {
+    background-size: cover;
+    background-position: center;
+}
+.finish_image img {
+    width: 100%;
+}
+.finish_headlines {    
+    margin-top: 5em;
+}
+.finish_headlines.grid {
+    display: flex;
+    gap: 2em;
+    justify-content: space-between;
+}
+.finish_headlines .item {
+    text-align: center;
+    /* max-width: 240px; */
+}
+.finish_headlines .item .icon {
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.finish_headlines .item::before {
+    height: calc(100% - 65px);
+}
+.icon img {
+    width: 100%;
+}
+.finish_headlines p {
+    margin: 0;
+}
+
+@media only screen and (max-width: 1500px) {
+    .finish_hero .button_list {
+        flex-direction: column;
+    }
+}

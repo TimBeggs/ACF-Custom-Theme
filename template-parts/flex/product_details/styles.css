@@ -1,0 +1,67 @@
+.astm {
+    margin-top: 6em;
+	margin-bottom: 3em;
+}
+.test_results {
+    position: relative;
+    margin-bottom: 1em;
+}
+.test_results p {
+    color: #A5B1B0;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 400;
+    width: fit-content;
+    padding: 0 20px;
+    margin-left: 6em;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+    position: relative;
+}
+.test_results p span {
+    margin-right: 10px;
+}
+.border {
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-bottom: 1em;
+}
+.border:before {
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: calc(100% - 2em);
+    bottom: 0;
+    left: 0;
+    border: solid 2px #EBE9E3;
+}
+.tests {
+    width: 100%;
+    margin-top: 1em;
+    text-align: left;
+    color: #2A303F;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 325;
+    border-collapse: collapse;
+}
+.tests tr:first-child {
+    background: #EBE9E3;
+}
+.tests td:first-child, .tests th:first-child {
+    padding-left: 3em;
+}
+.tests th, .tests td {
+    padding-left: 2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+tr.astm_item {
+    border-bottom: solid 2px #EBE9E3;
+}
+tr.astm_item:last-child {
+    border-bottom: none;
+}

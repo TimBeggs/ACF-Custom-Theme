@@ -1,0 +1,67 @@
+.download_resources {
+    padding-top: 6em;
+}
+.download_resources h2 {
+    text-align: center;
+    color: #2A303F;
+}
+.resources {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+    margin: auto;
+    margin-top: 4em;
+}
+.resource {
+    background: #EBE9E3;
+    padding: 10px 30px;
+    margin: 10px 30px;
+}
+.download_resources_multi_columns .resource {
+    background: transparent;
+    padding: 0;
+    margin-bottom: 25px;
+}
+
+
+.resource .files a {
+    display: flex;
+    align-items: center;
+    background: #EBE9E3;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #2A303F;
+    padding: 4px 10px;
+}
+
+.resource .files {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0px, 1fr));
+    gap: 10px;
+}
+
+.resource .files a svg {
+    width: 25px;
+}
+
+.resource h3 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    color: #2A303F;
+    align-items: center;
+    font-weight: 300;
+    margin-bottom: 0px;
+}
+
+.download_resources_multi_columns .resource h3 {
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 767px) {
+	.resources {
+		grid-template-columns: 1fr;
+	}
+}

@@ -1,0 +1,101 @@
+.product_overview {
+    padding-top: 7em;
+}
+.main-header {
+    box-shadow: 0px 4px 44px rgba(0, 0, 0, 0.13);
+}
+.stone_images {
+    display: grid;
+    grid-gap: 1rem;
+    margin-top: 3em;
+}
+.three-col {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.four-col {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.stone_images_2.product_gallery {
+    padding: 0 0 37px 0;
+}
+
+.stone_images_2.product_gallery .right-slide,
+.stone_images_2.product_gallery .left-slide {
+    bottom: 1em;
+}
+
+.finish {
+    position: relative;
+}
+.finish h3 {
+    display: none;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    color: #fff;
+    z-index: 99;
+    font-size: 16px;
+}
+.finish_detail {
+    font-size: 15px;
+    padding: 10px 20px !important;
+}
+.finish img {
+    width: 100%;
+}
+.finish:hover .title {
+    opacity: 1;
+    visibility: visible;
+    transition: 0.3s;
+}
+.finish:hover h3 {
+    display: block;
+}
+.stone_meta_btns {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 3em;
+}
+.stone_btns {
+    margin: auto;
+    display: inline-flex;
+    gap: 2em;
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+.made_in_usa {
+    text-align: right;
+}
+.made-usa {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}
+.made_in_usa p {
+    color: #A1AEB7;
+}
+.information h1 {
+    color: #2A303F;
+    margin-bottom: 20px;
+}
+.stone_btns .secondary_btn {
+    color: #55646C;
+    gap: 10px;
+}
+
+a.st-hero__back-to-st {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+a.st-hero__back-to-st svg{
+    margin-right: 8px;
+}
+
+.grid_images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}

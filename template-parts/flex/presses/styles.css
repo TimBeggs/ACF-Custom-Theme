@@ -1,0 +1,47 @@
+.presses_container {
+    margin-top: 6em;
+}
+.presses {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+}
+.press {
+    padding: 30px;
+    position: relative;
+}
+.press:before {
+    content: " ";
+    width: 100%;
+    height: calc(100% - 50px);
+    position: absolute;
+    border: solid 2px #ebe9e3;
+    left: 0;
+    bottom: 0;
+}
+.press_content h2 {
+    color: #2A303F;
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: 400;
+}
+.date {
+    color: #A5B1B0;
+    margin: 20px 0;
+}
+.press .flex {
+    justify-content: space-between;
+    align-items: end;
+    margin-top: 20px;
+}
+.read_more {
+    z-index: 9;
+}
+
+.presses .read_more .arrow path {
+	stroke: #2A303F;
+}
+
+.presses .read_more:hover .arrow path {
+	stroke: #01674C;
+}
